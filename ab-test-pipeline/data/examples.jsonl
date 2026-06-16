@@ -1,0 +1,8 @@
+{"id": "ex1", "input": "What is the capital of France?", "expected_output": "Paris is the capital of France."}
+{"id": "ex2", "input": "What is the capital of Japan?", "expected_output": "Tokyo is the capital of Japan."}
+{"id": "ex3", "input": "Who wrote Romeo and Juliet?", "expected_output": "William Shakespeare wrote Romeo and Juliet."}
+{"id": "ex4", "input": "What is 12 times 8?", "expected_output": "12 times 8 is 96."}
+{"id": "ex5", "input": "What gas do plants absorb for photosynthesis?", "expected_output": "Plants absorb carbon dioxide for photosynthesis."}
+{"id": "ex6", "input": "Name the largest planet in the solar system.", "expected_output": "Jupiter is the largest planet in the solar system."}
+{"id": "ex7", "input": "What is the boiling point of water in Celsius?", "expected_output": "Water boils at 100 degrees Celsius."}
+{"id": "ex8", "input": "Who painted the Mona Lisa?", "expected_output": "Leonardo da Vinci painted the Mona Lisa."}
