@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ab-test-pipeline"
+version = "0.1.0"
+description = "Paired A/B comparison of two LLM variants with statistical significance tests"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+ab-test = "ab_test_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
